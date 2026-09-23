@@ -1,5 +1,7 @@
 pipeline {
-agent any
+agent{
+label 'local-agent'
+}
 stages{
 stage('Hello World'){
 steps{
